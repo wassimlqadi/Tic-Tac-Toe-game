@@ -241,7 +241,7 @@ int main(void){
             p2move = playerMove(spaces);
             std::cout << "Player 2's move: " << '\n';
             play(spaces, p2move, player2);
-            if(checkWin(spaces, player1)){
+            if(checkWin(spaces, player2)){
                 std::cout << "CONGATULATIONS! PLAYER 2 WON!" << '\n';
                 running = false;
                 break;
