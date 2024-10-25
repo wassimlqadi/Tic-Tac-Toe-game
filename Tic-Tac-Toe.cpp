@@ -158,7 +158,7 @@ int main(void){
                 std::cout << "Your move: " << '\n';
                 play(spaces, pmove, player);
                 if(checkWin(spaces, player)){
-                    std::cout << "CONGATULATIONS! YOU WON!" << '\n';
+                    std::cout << "CONGRATULATIONS! YOU WON!" << '\n';
                     running = false;
                     break;
                 }
@@ -202,7 +202,7 @@ int main(void){
                 std::cout << "Your move: " << '\n';
                 play(spaces, pmove, player);
                 if(checkWin(spaces, player)){
-                    std::cout << "CONGATULATIONS! YOU WON!" << '\n';
+                    std::cout << "CONGRATULATIONS! YOU WON!" << '\n';
                     running = false;
                     break;
                 }
